@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* full viewport height */
+  margin: 0;
+  background-color: #8305fa
+}
+
+
+
+.signup-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signup-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.signup-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+/* 1. The Wrapper (The Parent) */
+
+
+/* 2. Your Existing Container */
